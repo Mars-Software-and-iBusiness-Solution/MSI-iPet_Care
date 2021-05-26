@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:shape="rectangle"
+    android:innerRadiusRatio="@integer/google_play_services_version"
+    android:visible="false"
+    android:innerRadius="@android:dimen/thumbnail_height">
+
+    <solid android:color="#9C242578"></solid>
+    <corners android:radius="20dp"></corners>
+
+
+
+</shape>

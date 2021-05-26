@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "515776765304",
+    "project_id": "msi---ipet-care",
+    "storage_bucket": "msi---ipet-care.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515776765304:android:52110b992850b4c563fc8d",
+        "android_client_info": {
+          "package_name": "com.mars.itech.msi_ipetcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515776765304-fos29v3rnammk439hg4hhc9octlt2sqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZr20_8tTBQL8_PC3H4jil3qUPoUU8WCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515776765304-fos29v3rnammk439hg4hhc9octlt2sqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

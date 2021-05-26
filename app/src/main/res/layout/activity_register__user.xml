@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_User"
+    android:background="#D1A431">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Register_User"
+        android:gravity="center_horizontal">
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:layout_marginTop="710dp"
+                android:layout_centerHorizontal="true"
+                android:text="Alpha Fitness X 2020" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="104dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="Image1"
+                    app:srcCompat="@drawable/gym_shark" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    app:counterEnabled="true"
+                    app:errorEnabled="true"
+                    app:hintTextColor="#090B0A">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editText1"
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:autofillHints="User Name / Email"
+                        android:background="@drawable/butoon_background6"
+                        android:drawableLeft="@drawable/ic_baseline_supervised_user_circle_24"
+                        android:ems="10"
+                        android:gravity="left|center"
+                        android:hint="User Name"
+                        android:inputType="textPersonName" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    app:counterEnabled="true"
+                    app:errorEnabled="true"
+                    android:textColor="#090B0A">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editText2"
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:autofillHints="User Name / Email"
+                        android:background="@drawable/butoon_background6"
+                        android:drawableLeft="@drawable/ic_email"
+                        android:ems="10"
+                        android:gravity="left|center"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="12"
+                    app:errorEnabled="true"
+                    app:hintTextColor="#090B0A"
+                    app:passwordToggleEnabled="true">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editText3"
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:autofillHints="Password"
+                        android:background="@drawable/butoon_background6"
+                        android:drawableStart="@drawable/ic_baseline_credit_card_24"
+                        android:drawableLeft="@drawable/ic_baseline_credit_card_24"
+                        android:ems="10"
+                        android:gravity="left|center"
+                        android:hint="NIC/ PassPort"
+                        android:inputType="text" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="12"
+                    app:errorEnabled="true"
+                    app:hintTextColor="#090B0A">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editText7"
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:autofillHints="Password"
+                        android:background="@drawable/butoon_background6"
+                        android:drawableStart="@drawable/ic_baseline_phone_24"
+                        android:drawableLeft="@drawable/ic_baseline_phone_24"
+                        android:ems="10"
+                        android:gravity="left|center"
+                        android:hint="Phone Number"
+                        android:inputType="phone" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+                    <Spinner
+                        android:id="@+id/editText8"
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:autofillHints="Password"
+                        android:ems="10"
+
+                        android:gravity="left|center"
+                        android:entries="@array/Gender"
+                        android:inputType="textAutoCorrect" />
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    app:counterEnabled="true"
+                    app:errorEnabled="true"
+
+                    app:hintTextColor="#090B0A">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editText9"
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:autofillHints="Password"
+                        android:background="@drawable/butoon_background6"
+
+                        android:ems="10"
+                        android:gravity="left|center"
+                        android:hint="Your Occupation"
+                        android:inputType="textAutoComplete"
+                        android:text="Occupation? Update After Register" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    app:counterEnabled="true"
+                    app:errorEnabled="true"
+
+                    app:hintTextColor="#090B0A">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editText10"
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:autofillHints="Password"
+                        android:background="@drawable/butoon_background6"
+                        android:drawableStart="@drawable/shop_items"
+                        android:drawableLeft="@drawable/ic_email"
+                        android:ems="10"
+                        android:gravity="left|center"
+                        android:hint="Promotion Code"
+                        android:inputType="textCapCharacters" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="9"
+                    app:errorEnabled="true"
+                    app:hintTextColor="#090B0A"
+                    app:passwordToggleEnabled="true">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editText4"
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:autofillHints="Password"
+                        android:background="@drawable/butoon_background6"
+                        android:drawableStart="@drawable/ic_lock"
+                        android:drawableLeft="@drawable/ic_lock"
+                        android:ems="10"
+                        android:gravity="left|center"
+                        android:hint="Password"
+                        android:inputType="textPassword" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="9"
+                    app:errorEnabled="true"
+                    app:hintTextColor="#090B0A"
+                    app:passwordToggleEnabled="true">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editText5"
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:autofillHints="Password"
+                        android:background="@drawable/butoon_background6"
+                        android:drawableStart="@drawable/ic_lock"
+                        android:drawableLeft="@drawable/ic_lock"
+                        android:ems="10"
+                        android:gravity="left|center"
+                        android:hint="Repeat Password"
+                        android:inputType="textPassword" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/editTextDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/date_show"
+                        android:ems="9"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_horizontal"
+                        android:hint="Select Birthday"
+                        android:textColor="#090B0A"
+                        android:textColorLink="#090B0A"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="50dp"
+                        android:background="@drawable/button_background1"
+                        android:text="Select Date" />
+
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background7"
+                    android:onClick="register"
+                    android:text="Register" />
+
+
+                <TextView
+
+                    android:id="@+id/testView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:shadowColor="#FFFFFF"
+                    android:text="      ALREADY REGISTER    "
+                    android:textColor="#0B0A0A" />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="550dp"
+                android:visibility="invisible"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

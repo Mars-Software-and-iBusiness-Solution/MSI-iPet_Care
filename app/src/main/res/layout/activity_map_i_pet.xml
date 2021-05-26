@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pet6">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+
+        android:background="@drawable/ic_baseline_search_24"/>
+
+    </FrameLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        android:background="@drawable/menu_background_1"
+        app:itemTextColor="@color/common_google_signin_btn_text_dark_focused"
+        app:itemIconTint="@color/appcolor"
+        app:itemIconSize="29dp"
+        app:labelVisibilityMode="auto"
+        app:itemTextAppearanceActive="@style/FullscreenTheme"
+        app:backgroundTint="#FCFFFFFF"
+        />
+</RelativeLayout>

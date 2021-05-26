@@ -1,0 +1,30 @@
+<resources>
+
+
+    <string-array name="Gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+
+    <color name="appcolor">#4909A3</color>
+    <string name="app_name">MSI-iPet Care 1.0</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="gallery">Gallery</string>
+    <string name="pet_care_app_2021">Pet_Care_App_2021</string>
+    <string name="title_activity_google__maps">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_splash__fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_shops_i_fit_1">Shops_iFit_1</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_shop_i_fit_1">Shop_iFit_1</string>
+
+</resources>

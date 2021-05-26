@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+
+<item android:title="      MY PET CARE"
+    android:tooltipText="@string/common_google_play_services_enable_button"/>
+
+
+<item android:id="@+id/editprofile"
+    android:title="Edit Owner Details "
+    android:icon="@drawable/camera_icon" />
+
+
+
+    <item android:id="@+id/trackmyprogress"
+    android:title="Track My Pet"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:visible="true" />
+
+    <item android:id="@+id/basic_workouts"
+    android:title="Pet Diet Plan "
+        android:icon="@drawable/visa_card"/>
+
+
+    <item
+        android:title="-----------------------------------------"/>
+    <group
+        android:menuCategory="container"
+        android:visible="true">
+
+    <item android:title=" MY PET"
+            android:iconTint="@color/colorBlack"/>
+
+
+        <item android:id="@+id/findmeaworkout"
+            android:title=" Edit Pet Details "
+            android:icon="@drawable/ic_baseline_add_shopping_cart_24" />
+
+        <item android:id="@+id/consultacoach"
+            android:title=" My Pet Doc "
+            android:icon="@drawable/shop_items" />
+
+        <item android:id="@+id/search_user"
+            android:title=" Share Experience"
+            android:icon="@drawable/feed_icon" />
+
+        <item android:id="@+id/settings"
+            android:title=" Settings"
+            android:icon="@drawable/ic_baseline_settings_24" />
+
+        <item android:id="@+id/logout"
+            android:title="           Logout"
+            android:icon="@drawable/ic_baseline_undo_24"/>
+
+
+    </group>
+
+
+
+
+
+
+</menu>

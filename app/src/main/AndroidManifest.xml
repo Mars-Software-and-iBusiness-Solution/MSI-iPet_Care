@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mars.itech.msi_ipetcare">
+
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.nike.ntc.BROADCAST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:installLocation="auto"
+        android:hardwareAccelerated="true"
+        android:largeHeap="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:extractNativeLibs="true"
+        android:fullBackupContent="false"
+
+
+
+        android:theme="@style/AppTheme">
+
+
+
+        <activity android:name=".home_fragment.Settings"></activity>
+        <activity android:name=".home_fragment.Share_Experience" />
+        <activity android:name=".home_fragment.Edit_Pet_Details" />
+        <activity android:name=".home_fragment.Pet_Diet_Plan" />
+        <activity android:name=".home_fragment.Track_My_Pet" />
+        <activity android:name=".home_fragment.My_Pet_Doc" />
+        <activity android:name=".home_fragment.Edit_Owner_Details" />
+        <activity android:name=".Home_Directory.Favorite_iFit" />
+        <activity android:name=".Home_Directory.Feed_iFit" />
+        <activity android:name=".Home_Directory.Map_iFit" />
+        <activity android:name=".Home_Directory.Shops_iFit" />
+        <activity android:name=".Home_Directory.Home_iFit" />
+        <activity android:name=".Register_User" />
+        <activity android:name=".User_Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
